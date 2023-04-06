@@ -1,13 +1,15 @@
-﻿namespace HashTablesandBinarySearchTree
+﻿namespace ConsoleApp2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("----------HashTables-------------");
-            HashTables.PerformHashTables();
-            BinarySearchTree output = new BinarySearchTree();
-            output.Execute();
+           // Console.WriteLine("Hello, World!");
+
+          //  PurchaseList.Orders();
+           // Swap_Position.swapping();
+            DuplicateLetters.Counts("aaaajay");
+            Chapters.FindChapters();
         }
     }
 }
